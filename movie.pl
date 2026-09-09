@@ -15,5 +15,6 @@ movie(hera_pheri,comedy).
 #rules
 
 recommend(user,movie):-
-movie(movie,genre);
-likes(movie,user).
+likes(user,genre),
+movie(movie,user).
+
