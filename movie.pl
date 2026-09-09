@@ -16,5 +16,5 @@ movie(hera_pheri,comedy).
 
 recommend(user,movie):-
 likes(user,genre),
-movie(movie,user).
+movie(movie,genre).s
 
